@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Portfólio Pessoal</title>
+</head>
+<body>
+  <header>
+    <h1 id="typing-effect"></h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Sobre Mim</h2>
+    <p>Eu sou desenvolvedor web com foco em tecnologias modernas.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div id="skills-list"></div>
+  </section>
+
+  <section id="projects">
+    <h2>Projetos</h2>
+    <div id="projects-list"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Seu nome" required>
+      <input type="email" id="email" placeholder="Seu email" required>
+      <textarea id="message" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
